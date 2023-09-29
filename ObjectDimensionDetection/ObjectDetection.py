@@ -12,7 +12,7 @@ def display_images(image_list):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-image_path = "images/IMG_8611.JPG"
+image_path = "images/PaqmanTest.JPG"
 
 # Read and preprocess the image
 input_image = cv2.imread(image_path)
